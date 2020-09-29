@@ -18,6 +18,7 @@ import chainer
 from chainer.training import extensions
 from chainer.dataset import convert
 
+sys.path.append('/content/workspace/tdmelodic')
 from nn.net import Net
 from nn.loader.data_loader import NeologdDictionaryLoader
 from nn.lang.japanese.kana.mora_sep import sep_katakana2mora
